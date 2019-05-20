@@ -5,6 +5,7 @@ const viewEngine=require('ejs');
 const port = 8088;
 app.use(bodyParser.urlencoded({extends:false}));
 app.set('view engine', 'ejs');
+console.log("A");
 
 
 
